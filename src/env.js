@@ -1,5 +1,5 @@
 const dotenv = require('dotenv');
-dotenv.config({ path: '../.env' });
+dotenv.config({ path: './.env' });
 
 const endpointUrl = process.env.endpoint;
 if (!endpointUrl) {
