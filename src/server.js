@@ -1,4 +1,4 @@
-const {WebPubSubServiceClient} = require('azure/web-pubsub');
+const {WebPubSubServiceClient} = require('@azure/web-pubsub');
 const WebSocket = require('ws');
 const {connectionString, hubName} = require('./env');
 
